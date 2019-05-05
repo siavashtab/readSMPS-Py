@@ -1,0 +1,8 @@
+STOCH         PGP2
+INDEP         NORMAL
+    RHS       DNODE1      5.0                      1.5625
+*
+    RHS       DNODE2      4.0                      1.5625
+*
+    RHS       DNODE2      3.0                      1.5625
+ENDATA

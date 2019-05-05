@@ -1,0 +1,5 @@
+TIME	storm
+PERIODS
+    C0011901  OBJ                      TIME1
+    C0000102  R0000102                 TIME2
+ENDATA

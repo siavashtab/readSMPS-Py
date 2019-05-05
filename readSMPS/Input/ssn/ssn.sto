@@ -1,0 +1,658 @@
+STOCH         ssn
+INDEP         DISCRETE
+         RHS   DEM112Z       0.00000           0.47500 
+         RHS   DEM112Z       0.12080           0.19000 
+         RHS   DEM112Z       0.68969           0.19000 
+         RHS   DEM112Z       1.65243           0.09500 
+         RHS   DEM112Z       6.85000           0.05000 
+*
+         RHS   DEM11M8       0.00000           0.85500 
+         RHS   DEM11M8       5.39001           0.09500 
+         RHS   DEM11M8      75.13000           0.05000
+* 
+         RHS   DEM11MQ       0.00000           0.47500 
+         RHS   DEM11MQ       0.12080           0.19000 
+         RHS   DEM11MQ       0.68969           0.19000 
+         RHS   DEM11MQ       1.65243           0.09500 
+         RHS   DEM11MQ       6.85000           0.05000
+* 
+         RHS   DEM11P1       0.00000           0.47500 
+         RHS   DEM11P1       0.12080           0.19000 
+         RHS   DEM11P1       0.68969           0.19000 
+         RHS   DEM11P1       1.65243           0.09500 
+         RHS   DEM11P1       6.85000           0.05000
+* 
+         RHS   DEM11P2       0.00000           0.47500 
+         RHS   DEM11P2       0.12080           0.19000 
+         RHS   DEM11P2       0.68969           0.19000 
+         RHS   DEM11P2       1.65243           0.09500 
+         RHS   DEM11P2       6.85000           0.05000
+* 
+         RHS   DEM11P3       0.00000           0.85500 
+         RHS   DEM11P3       3.17105           0.09500 
+         RHS   DEM11P3      40.67000           0.05000
+* 
+         RHS   DEM11PU       4.18082           0.09500 
+         RHS   DEM11PU       6.74172           0.19000 
+         RHS   DEM11PU       8.25498           0.19000 
+         RHS   DEM11PU       9.41902           0.19000 
+         RHS   DEM11PU      10.93228           0.19000 
+         RHS   DEM11PU      13.49318           0.09500 
+         RHS   DEM11PU      27.61000           0.05000
+* 
+         RHS   DEM11PZ       0.00000           0.85500 
+         RHS   DEM11PZ       1.80895           0.09500 
+         RHS   DEM11PZ      26.96000           0.05000
+* 
+         RHS   DEM11TH       0.00000           0.47500 
+         RHS   DEM11TH       0.12080           0.19000 
+         RHS   DEM11TH       0.68969           0.19000 
+         RHS   DEM11TH       1.65243           0.09500 
+         RHS   DEM11TH       6.85000           0.05000
+* 
+         RHS   DEM11TL       0.00000           0.47500 
+         RHS   DEM11TL       0.12080           0.19000 
+         RHS   DEM11TL       0.68969           0.19000 
+         RHS   DEM11TL       1.65243           0.09500 
+         RHS   DEM11TL       6.85000           0.05000
+* 
+         RHS   DEM1DFP       0.18082           0.09500 
+         RHS   DEM1DFP       2.74172           0.19000 
+         RHS   DEM1DFP       4.25498           0.19000 
+         RHS   DEM1DFP       5.41902           0.19000 
+         RHS   DEM1DFP       6.93228           0.19000 
+         RHS   DEM1DFP       9.49318           0.09500 
+         RHS   DEM1DFP      23.61000           0.05000
+* 
+         RHS   DEM1DTL      10.70999           0.09500 
+         RHS   DEM1DTL      31.24700           0.19000 
+         RHS   DEM1DTL      43.38250           0.19000 
+         RHS   DEM1DTL      52.71750           0.19000 
+         RHS   DEM1DTL      64.85300           0.19000 
+         RHS   DEM1DTL      85.39001           0.09500 
+         RHS   DEM1DTL     155.13000           0.05000
+* 
+         RHS   DEM2ZCS      18.53095           0.09500 
+         RHS   DEM2ZCS      27.50698           0.19000 
+         RHS   DEM2ZCS      32.81099           0.19000 
+         RHS   DEM2ZCS      36.89101           0.19000 
+         RHS   DEM2ZCS      42.19502           0.19000 
+         RHS   DEM2ZCS      51.17105           0.09500 
+         RHS   DEM2ZCS      88.67000           0.05000
+* 
+         RHS   DEM2ZPZ      11.53095           0.09500 
+         RHS   DEM2ZPZ      20.50698           0.19000 
+         RHS   DEM2ZPZ      25.81099           0.19000 
+         RHS   DEM2ZPZ      29.89101           0.19000 
+         RHS   DEM2ZPZ      35.19502           0.19000 
+         RHS   DEM2ZPZ      44.17105           0.09500 
+         RHS   DEM2ZPZ      81.67000           0.05000
+* 
+         RHS   DEM2ZTH       1.15157           0.09500 
+         RHS   DEM2ZTH       2.11431           0.19000 
+         RHS   DEM2ZTH       2.68320           0.19000 
+         RHS   DEM2ZTH       3.12080           0.19000 
+         RHS   DEM2ZTH       3.68969           0.19000 
+         RHS   DEM2ZTH       4.65243           0.09500 
+         RHS   DEM2ZTH       9.85000           0.05000
+* 
+         RHS   DEM2ZTL      25.70999           0.09500 
+         RHS   DEM2ZTL      46.24700           0.19000 
+         RHS   DEM2ZTL      58.38250           0.19000 
+         RHS   DEM2ZTL      67.71750           0.19000 
+         RHS   DEM2ZTL      79.85300           0.19000 
+         RHS   DEM2ZTL     100.39001           0.09500 
+         RHS   DEM2ZTL     170.13000           0.05000 
+*
+         RHS   DEMACTL       0.18082           0.09500 
+         RHS   DEMACTL       2.74172           0.19000 
+         RHS   DEMACTL       4.25498           0.19000 
+         RHS   DEMACTL       5.41902           0.19000 
+         RHS   DEMACTL       6.93228           0.19000 
+         RHS   DEMACTL       9.49318           0.09500 
+         RHS   DEMACTL      23.61000           0.05000
+* 
+         RHS   DEMADLA       0.00000           0.09500 
+         RHS   DEMADLA       0.11431           0.19000 
+         RHS   DEMADLA       0.68320           0.19000 
+         RHS   DEMADLA       1.12080           0.19000 
+         RHS   DEMADLA       1.68969           0.19000 
+         RHS   DEMADLA       2.65243           0.09500 
+         RHS   DEMADLA       7.85000           0.05000
+* 
+         RHS   DEMADP3       0.15157           0.09500 
+         RHS   DEMADP3       1.11431           0.19000 
+         RHS   DEMADP3       1.68320           0.19000 
+         RHS   DEMADP3       2.12080           0.19000 
+         RHS   DEMADP3       2.68969           0.19000 
+         RHS   DEMADP3       3.65243           0.09500 
+         RHS   DEMADP3       8.85000           0.05000
+* 
+         RHS   DEMADPZ       0.00000           0.09500 
+         RHS   DEMADPZ       8.50698           0.19000 
+         RHS   DEMADPZ      13.81099           0.19000 
+         RHS   DEMADPZ      17.89101           0.19000 
+         RHS   DEMADPZ      23.19502           0.19000 
+         RHS   DEMADPZ      32.17105           0.09500 
+         RHS   DEMADPZ      69.67000           0.05000
+* 
+         RHS   DEMADTL       0.00000           0.09500 
+         RHS   DEMADTL      12.24700           0.19000 
+         RHS   DEMADTL      24.38250           0.19000 
+         RHS   DEMADTL      33.71750           0.19000 
+         RHS   DEMADTL      45.85300           0.19000 
+         RHS   DEMADTL      66.39001           0.09500 
+         RHS   DEMADTL     136.13000           0.05000
+* 
+         RHS   DEMBUCS       1.12505           0.09500 
+         RHS   DEMBUCS       5.98812           0.19000 
+         RHS   DEMBUCS       8.86176           0.19000 
+         RHS   DEMBUCS      11.07224           0.19000 
+         RHS   DEMBUCS      13.94588           0.19000 
+         RHS   DEMBUCS      18.80895           0.09500 
+         RHS   DEMBUCS      43.96000           0.05000
+* 
+         RHS   DEMBUEP       0.00000           0.09500 
+         RHS   DEMBUEP       0.74172           0.19000 
+         RHS   DEMBUEP       2.25498           0.19000 
+         RHS   DEMBUEP       3.41902           0.19000 
+         RHS   DEMBUEP       4.93228           0.19000 
+         RHS   DEMBUEP       7.49318           0.09500 
+         RHS   DEMBUEP      21.61000           0.05000
+* 
+         RHS   DEMBUPP       0.18082           0.09500 
+         RHS   DEMBUPP       2.74172           0.19000 
+         RHS   DEMBUPP       4.25498           0.19000 
+         RHS   DEMBUPP       5.41902           0.19000 
+         RHS   DEMBUPP       6.93228           0.19000 
+         RHS   DEMBUPP       9.49318           0.09500 
+         RHS   DEMBUPP      23.61000           0.05000
+* 
+         RHS   DEMBUPU       0.00000           0.09500 
+         RHS   DEMBUPU       0.74172           0.19000 
+         RHS   DEMBUPU       2.25498           0.19000 
+         RHS   DEMBUPU       3.41902           0.19000 
+         RHS   DEMBUPU       4.93228           0.19000 
+         RHS   DEMBUPU       7.49318           0.09500 
+         RHS   DEMBUPU      21.61000           0.05000
+* 
+         RHS   DEMBUTL      19.12505           0.09500 
+         RHS   DEMBUTL      23.98812           0.19000 
+         RHS   DEMBUTL      26.86176           0.19000 
+         RHS   DEMBUTL      29.07224           0.19000 
+         RHS   DEMBUTL      31.94588           0.19000 
+         RHS   DEMBUTL      36.80895           0.09500 
+         RHS   DEMBUTL      61.96000           0.05000
+* 
+         RHS   DEMCDCS       0.00000           0.09500 
+         RHS   DEMCDCS       0.11431           0.19000 
+         RHS   DEMCDCS       0.68320           0.19000 
+         RHS   DEMCDCS       1.12080           0.19000 
+         RHS   DEMCDCS       1.68969           0.19000 
+         RHS   DEMCDCS       2.65243           0.09500 
+         RHS   DEMCDCS       7.85000           0.05000
+* 
+         RHS   DEMCDTH       0.00000           0.09500 
+         RHS   DEMCDTH       0.11431           0.19000 
+         RHS   DEMCDTH       0.68320           0.19000 
+         RHS   DEMCDTH       1.12080           0.19000 
+         RHS   DEMCDTH       1.68969           0.19000 
+         RHS   DEMCDTH       2.65243           0.09500 
+         RHS   DEMCDTH       7.85000           0.05000 
+         RHS   DEMCHTH       0.00000           0.09500 
+         RHS   DEMCHTH       0.74172           0.19000 
+         RHS   DEMCHTH       2.25498           0.19000 
+         RHS   DEMCHTH       3.41902           0.19000 
+         RHS   DEMCHTH       4.93228           0.19000 
+         RHS   DEMCHTH       7.49318           0.09500 
+         RHS   DEMCHTH      21.61000           0.05000
+* 
+         RHS   DEMCHTL       0.18082           0.09500 
+         RHS   DEMCHTL       2.74172           0.19000 
+         RHS   DEMCHTL       4.25498           0.19000 
+         RHS   DEMCHTL       5.41902           0.19000 
+         RHS   DEMCHTL       6.93228           0.19000 
+         RHS   DEMCHTL       9.49318           0.09500 
+         RHS   DEMCHTL      23.61000           0.05000
+* 
+         RHS   DEMCSEP       4.18082           0.09500 
+         RHS   DEMCSEP       6.74172           0.19000 
+         RHS   DEMCSEP       8.25498           0.19000 
+         RHS   DEMCSEP       9.41902           0.19000 
+         RHS   DEMCSEP      10.93228           0.19000 
+         RHS   DEMCSEP      13.49318           0.09500 
+         RHS   DEMCSEP      27.61000           0.05000
+* 
+         RHS   DEMCSFP       1.15157           0.09500 
+         RHS   DEMCSFP       2.11431           0.19000 
+         RHS   DEMCSFP       2.68320           0.19000 
+         RHS   DEMCSFP       3.12080           0.19000 
+         RHS   DEMCSFP       3.68969           0.19000 
+         RHS   DEMCSFP       4.65243           0.09500 
+         RHS   DEMCSFP       9.85000           0.05000
+* 
+         RHS   DEMCSGR       0.00000           0.09500 
+         RHS   DEMCSGR       0.74172           0.19000 
+         RHS   DEMCSGR       2.25498           0.19000 
+         RHS   DEMCSGR       3.41902           0.19000 
+         RHS   DEMCSGR       4.93228           0.19000 
+         RHS   DEMCSGR       7.49318           0.09500 
+         RHS   DEMCSGR      21.61000           0.05000
+* 
+         RHS   DEMCSHB       7.12505           0.09500 
+         RHS   DEMCSHB      11.98812           0.19000 
+         RHS   DEMCSHB      14.86176           0.19000 
+         RHS   DEMCSHB      17.07224           0.19000 
+         RHS   DEMCSHB      19.94588           0.19000 
+         RHS   DEMCSHB      24.80895           0.09500 
+         RHS   DEMCSHB      49.96000           0.05000
+* 
+         RHS   DEMCSLA       0.15157           0.09500 
+         RHS   DEMCSLA       1.11431           0.19000 
+         RHS   DEMCSLA       1.68320           0.19000 
+         RHS   DEMCSLA       2.12080           0.19000 
+         RHS   DEMCSLA       2.68969           0.19000 
+         RHS   DEMCSLA       3.65243           0.09500 
+         RHS   DEMCSLA       8.85000           0.05000
+* 
+         RHS   DEMCSM8       7.53095           0.09500 
+         RHS   DEMCSM8      16.50698           0.19000 
+         RHS   DEMCSM8      21.81099           0.19000 
+         RHS   DEMCSM8      25.89101           0.19000 
+         RHS   DEMCSM8      31.19502           0.19000 
+         RHS   DEMCSM8      40.17105           0.09500 
+         RHS   DEMCSM8      77.67000           0.05000
+* 
+         RHS   DEMCSMQ       3.12505           0.09500 
+         RHS   DEMCSMQ       7.98812           0.19000 
+         RHS   DEMCSMQ      10.86176           0.19000 
+         RHS   DEMCSMQ      13.07224           0.19000 
+         RHS   DEMCSMQ      15.94588           0.19000 
+         RHS   DEMCSMQ      20.80895           0.09500 
+         RHS   DEMCSMQ      45.96000           0.05000
+* 
+         RHS   DEMCSP1       4.18082           0.09500 
+         RHS   DEMCSP1       6.74172           0.19000 
+         RHS   DEMCSP1       8.25498           0.19000 
+         RHS   DEMCSP1       9.41902           0.19000 
+         RHS   DEMCSP1      10.93228           0.19000 
+         RHS   DEMCSP1      13.49318           0.09500 
+         RHS   DEMCSP1      27.61000           0.05000
+* 
+         RHS   DEMCSP3       0.00000           0.95000 
+         RHS   DEMCSP3      24.96000           0.05000
+* 
+         RHS   DEMCSPP      11.53095           0.09500 
+         RHS   DEMCSPP      20.50698           0.19000 
+         RHS   DEMCSPP      25.81099           0.19000 
+         RHS   DEMCSPP      29.89101           0.19000 
+         RHS   DEMCSPP      35.19502           0.19000 
+         RHS   DEMCSPP      44.17105           0.09500 
+         RHS   DEMCSPP      81.67000           0.05000
+* 
+         RHS   DEMCSPZ       1.18082           0.09500 
+         RHS   DEMCSPZ       3.74172           0.19000 
+         RHS   DEMCSPZ       5.25498           0.19000 
+         RHS   DEMCSPZ       6.41902           0.19000 
+         RHS   DEMCSPZ       7.93228           0.19000 
+         RHS   DEMCSPZ      10.49318           0.09500 
+         RHS   DEMCSPZ      24.61000           0.05000
+* 
+         RHS   DEMCSTH      35.83001           0.09500 
+         RHS   DEMCSTH      70.28201           0.19000 
+         RHS   DEMCSTH      90.64000           0.19000 
+         RHS   DEMCSTH     106.30000           0.19000 
+         RHS   DEMCSTH     126.65799           0.19000 
+         RHS   DEMCSTH     161.10999           0.09500 
+         RHS   DEMCSTH     269.31000           0.05000
+* 
+         RHS   DEMCSTL      41.70999           0.09500 
+         RHS   DEMCSTL      62.24700           0.19000 
+         RHS   DEMCSTL      74.38250           0.19000 
+         RHS   DEMCSTL      83.71750           0.19000 
+         RHS   DEMCSTL      95.85300           0.19000 
+         RHS   DEMCSTL     116.39001           0.09500 
+         RHS   DEMCSTL     186.13000           0.05000
+* 
+         RHS   DEMDKLA       0.00000           0.09500 
+         RHS   DEMDKLA      14.24700           0.19000 
+         RHS   DEMDKLA      26.38250           0.19000 
+         RHS   DEMDKLA      35.71750           0.19000 
+         RHS   DEMDKLA      47.85300           0.19000 
+         RHS   DEMDKLA      68.39001           0.09500 
+         RHS   DEMDKLA     138.13000           0.05000 
+*
+         RHS   DEMDKTH       1.12505           0.09500 
+         RHS   DEMDKTH       5.98812           0.19000 
+         RHS   DEMDKTH       8.86176           0.19000 
+         RHS   DEMDKTH      11.07224           0.19000 
+         RHS   DEMDKTH      13.94588           0.19000 
+         RHS   DEMDKTH      18.80895           0.09500 
+         RHS   DEMDKTH      43.96000           0.05000
+* 
+         RHS   DEMELIC       0.00000           0.09500 
+         RHS   DEMELIC      16.24700           0.19000 
+         RHS   DEMELIC      28.38250           0.19000 
+         RHS   DEMELIC      37.71750           0.19000 
+         RHS   DEMELIC      49.85300           0.19000 
+         RHS   DEMELIC      70.39001           0.09500 
+         RHS   DEMELIC     140.13000           0.05000
+* 
+         RHS   DEMELLA       4.53095           0.09500 
+         RHS   DEMELLA      13.50698           0.19000 
+         RHS   DEMELLA      18.81099           0.19000 
+         RHS   DEMELLA      22.89101           0.19000 
+         RHS   DEMELLA      28.19502           0.19000 
+         RHS   DEMELLA      37.17105           0.09500 
+         RHS   DEMELLA      74.67000           0.05000
+* 
+         RHS   DEMELTH       0.00000           0.09500 
+         RHS   DEMELTH       0.11431           0.19000 
+         RHS   DEMELTH       0.68320           0.19000 
+         RHS   DEMELTH       1.12080           0.19000 
+         RHS   DEMELTH       1.68969           0.19000 
+         RHS   DEMELTH       2.65243           0.09500 
+         RHS   DEMELTH       7.85000           0.05000
+* 
+         RHS   DEMEPPP       6.15157           0.09500 
+         RHS   DEMEPPP       7.11431           0.19000 
+         RHS   DEMEPPP       7.68320           0.19000 
+         RHS   DEMEPPP       8.12080           0.19000 
+         RHS   DEMEPPP       8.68969           0.19000 
+         RHS   DEMEPPP       9.65243           0.09500 
+         RHS   DEMEPPP      14.85000           0.05000
+* 
+         RHS   DEMEPPZ       1.53095           0.09500 
+         RHS   DEMEPPZ      10.50698           0.19000 
+         RHS   DEMEPPZ      15.81099           0.19000 
+         RHS   DEMEPPZ      19.89101           0.19000 
+         RHS   DEMEPPZ      25.19502           0.19000 
+         RHS   DEMEPPZ      34.17105           0.09500 
+         RHS   DEMEPPZ      71.67000           0.05000
+* 
+         RHS   DEMEPRM       0.00000           0.09500 
+         RHS   DEMEPRM       0.74172           0.19000 
+         RHS   DEMEPRM       2.25498           0.19000 
+         RHS   DEMEPRM       3.41902           0.19000 
+         RHS   DEMEPRM       4.93228           0.19000 
+         RHS   DEMEPRM       7.49318           0.09500 
+         RHS   DEMEPRM      21.61000           0.05000 
+*
+         RHS   DEMEPTL      16.53095           0.09500 
+         RHS   DEMEPTL      25.50698           0.19000 
+         RHS   DEMEPTL      30.81099           0.19000 
+         RHS   DEMEPTL      34.89101           0.19000 
+         RHS   DEMEPTL      40.19502           0.19000 
+         RHS   DEMEPTL      49.17105           0.09500 
+         RHS   DEMEPTL      86.67000           0.05000
+* 
+         RHS   DEMFPHA       0.00000           0.09500 
+         RHS   DEMFPHA       0.11431           0.19000 
+         RHS   DEMFPHA       0.68320           0.19000 
+         RHS   DEMFPHA       1.12080           0.19000 
+         RHS   DEMFPHA       1.68969           0.19000 
+         RHS   DEMFPHA       2.65243           0.09500 
+         RHS   DEMFPHA       7.85000           0.05000
+* 
+         RHS   DEMFPPP       1.15157           0.09500 
+         RHS   DEMFPPP       2.11431           0.19000 
+         RHS   DEMFPPP       2.68320           0.19000 
+         RHS   DEMFPPP       3.12080           0.19000 
+         RHS   DEMFPPP       3.68969           0.19000 
+         RHS   DEMFPPP       4.65243           0.09500 
+         RHS   DEMFPPP       9.85000           0.05000
+* 
+         RHS   DEMFPPZ       0.53095           0.09500 
+         RHS   DEMFPPZ       9.50698           0.19000 
+         RHS   DEMFPPZ      14.81099           0.19000 
+         RHS   DEMFPPZ      18.89101           0.19000 
+         RHS   DEMFPPZ      24.19502           0.19000 
+         RHS   DEMFPPZ      33.17105           0.09500 
+         RHS   DEMFPPZ      70.67000           0.05000
+* 
+         RHS   DEMFPTH       0.00000           0.09500 
+         RHS   DEMFPTH       0.11431           0.19000 
+         RHS   DEMFPTH       0.68320           0.19000 
+         RHS   DEMFPTH       1.12080           0.19000 
+         RHS   DEMFPTH       1.68969           0.19000 
+         RHS   DEMFPTH       2.65243           0.09500 
+         RHS   DEMFPTH       7.85000           0.05000
+* 
+         RHS   DEMGRTH       0.00000           0.09500 
+         RHS   DEMGRTH       8.50698           0.19000 
+         RHS   DEMGRTH      13.81099           0.19000 
+         RHS   DEMGRTH      17.89101           0.19000 
+         RHS   DEMGRTH      23.19502           0.19000 
+         RHS   DEMGRTH      32.17105           0.09500 
+         RHS   DEMGRTH      69.67000           0.05000
+* 
+         RHS   DEMHATL       4.18082           0.09500 
+         RHS   DEMHATL       6.74172           0.19000 
+         RHS   DEMHATL       8.25498           0.19000 
+         RHS   DEMHATL       9.41902           0.19000 
+         RHS   DEMHATL      10.93228           0.19000 
+         RHS   DEMHATL      13.49318           0.09500 
+         RHS   DEMHATL      27.61000           0.05000
+* 
+         RHS   DEMHBP1       0.18082           0.09500 
+         RHS   DEMHBP1       2.74172           0.19000 
+         RHS   DEMHBP1       4.25498           0.19000 
+         RHS   DEMHBP1       5.41902           0.19000 
+         RHS   DEMHBP1       6.93228           0.19000 
+         RHS   DEMHBP1       9.49318           0.09500 
+         RHS   DEMHBP1      23.61000           0.05000
+* 
+         RHS   DEMHBRM      10.15157           0.09500 
+         RHS   DEMHBRM      11.11431           0.19000 
+         RHS   DEMHBRM      11.68320           0.19000 
+         RHS   DEMHBRM      12.12080           0.19000 
+         RHS   DEMHBRM      12.68969           0.19000 
+         RHS   DEMHBRM      13.65243           0.09500 
+         RHS   DEMHBRM      18.85000           0.05000
+* 
+         RHS   DEMHBTL      18.53095           0.09500 
+         RHS   DEMHBTL      27.50698           0.19000 
+         RHS   DEMHBTL      32.81099           0.19000 
+         RHS   DEMHBTL      36.89101           0.19000 
+         RHS   DEMHBTL      42.19502           0.19000 
+         RHS   DEMHBTL      51.17105           0.09500 
+         RHS   DEMHBTL      88.67000           0.05000
+* 
+         RHS   DEMHRTH       0.00000           0.09500 
+         RHS   DEMHRTH       0.74172           0.19000 
+         RHS   DEMHRTH       2.25498           0.19000 
+         RHS   DEMHRTH       3.41902           0.19000 
+         RHS   DEMHRTH       4.93228           0.19000 
+         RHS   DEMHRTH       7.49318           0.09500 
+         RHS   DEMHRTH      21.61000           0.05000
+* 
+         RHS   DEMICP2       0.15157           0.09500 
+         RHS   DEMICP2       1.11431           0.19000 
+         RHS   DEMICP2       1.68320           0.19000 
+         RHS   DEMICP2       2.12080           0.19000 
+         RHS   DEMICP2       2.68969           0.19000 
+         RHS   DEMICP2       3.65243           0.09500 
+         RHS   DEMICP2       8.85000           0.05000
+* 
+         RHS   DEMLATH       0.00000           0.09500 
+         RHS   DEMLATH       1.74172           0.19000 
+         RHS   DEMLATH       3.25498           0.19000 
+         RHS   DEMLATH       4.41902           0.19000 
+         RHS   DEMLATH       5.93228           0.19000 
+         RHS   DEMLATH       8.49318           0.09500 
+         RHS   DEMLATH      22.61000           0.05000
+* 
+         RHS   DEMLATL       0.00000           0.09500 
+         RHS   DEMLATL       1.98812           0.19000 
+         RHS   DEMLATL       4.86176           0.19000 
+         RHS   DEMLATL       7.07224           0.19000 
+         RHS   DEMLATL       9.94588           0.19000 
+         RHS   DEMLATL      14.80895           0.09500 
+         RHS   DEMLATL      39.96000           0.05000
+* 
+         RHS   DEMM1TL       7.12505           0.09500 
+         RHS   DEMM1TL      11.98812           0.19000 
+         RHS   DEMM1TL      14.86176           0.19000 
+         RHS   DEMM1TL      17.07224           0.19000 
+         RHS   DEMM1TL      19.94588           0.19000 
+         RHS   DEMM1TL      24.80895           0.09500 
+         RHS   DEMM1TL      49.96000           0.05000
+* 
+         RHS   DEMM8MQ       4.18082           0.09500 
+         RHS   DEMM8MQ       6.74172           0.19000 
+         RHS   DEMM8MQ       8.25498           0.19000 
+         RHS   DEMM8MQ       9.41902           0.19000 
+         RHS   DEMM8MQ      10.93228           0.19000 
+         RHS   DEMM8MQ      13.49318           0.09500 
+         RHS   DEMM8MQ      27.61000           0.05000
+* 
+         RHS   DEMM8P1       4.53095           0.09500 
+         RHS   DEMM8P1      13.50698           0.19000 
+         RHS   DEMM8P1      18.81099           0.19000 
+         RHS   DEMM8P1      22.89101           0.19000 
+         RHS   DEMM8P1      28.19502           0.19000 
+         RHS   DEMM8P1      37.17105           0.09500 
+         RHS   DEMM8P1      74.67000           0.05000
+* 
+         RHS   DEMM8TH       0.15157           0.09500 
+         RHS   DEMM8TH       1.11431           0.19000 
+         RHS   DEMM8TH       1.68320           0.19000 
+         RHS   DEMM8TH       2.12080           0.19000 
+         RHS   DEMM8TH       2.68969           0.19000 
+         RHS   DEMM8TH       3.65243           0.09500 
+         RHS   DEMM8TH       8.85000           0.05000
+* 
+         RHS   DEMM8TL       7.12505           0.09500 
+         RHS   DEMM8TL      11.98812           0.19000 
+         RHS   DEMM8TL      14.86176           0.19000 
+         RHS   DEMM8TL      17.07224           0.19000 
+         RHS   DEMM8TL      19.94588           0.19000 
+         RHS   DEMM8TL      24.80895           0.09500 
+         RHS   DEMM8TL      49.96000           0.05000 
+*
+         RHS   DEMMQP2       2.15157           0.09500 
+         RHS   DEMMQP2       3.11431           0.19000 
+         RHS   DEMMQP2       3.68320           0.19000 
+         RHS   DEMMQP2       4.12080           0.19000 
+         RHS   DEMMQP2       4.68969           0.19000 
+         RHS   DEMMQP2       5.65243           0.09500 
+         RHS   DEMMQP2      10.85000           0.05000
+* 
+         RHS   DEMMQTL       1.15157           0.09500 
+         RHS   DEMMQTL       2.11431           0.19000 
+         RHS   DEMMQTL       2.68320           0.19000 
+         RHS   DEMMQTL       3.12080           0.19000 
+         RHS   DEMMQTL       3.68969           0.19000 
+         RHS   DEMMQTL       4.65243           0.09500 
+         RHS   DEMMQTL       9.85000           0.05000
+* 
+         RHS   DEMP1P2       4.15157           0.09500 
+         RHS   DEMP1P2       5.11431           0.19000 
+         RHS   DEMP1P2       5.68320           0.19000 
+         RHS   DEMP1P2       6.12080           0.19000 
+         RHS   DEMP1P2       6.68969           0.19000 
+         RHS   DEMP1P2       7.65243           0.09500 
+         RHS   DEMP1P2      12.85000           0.05000
+* 
+         RHS   DEMP1PZ       0.00000           0.09500 
+         RHS   DEMP1PZ       0.98812           0.19000 
+         RHS   DEMP1PZ       3.86176           0.19000 
+         RHS   DEMP1PZ       6.07224           0.19000 
+         RHS   DEMP1PZ       8.94588           0.19000 
+         RHS   DEMP1PZ      13.80895           0.09500 
+         RHS   DEMP1PZ      38.96000           0.05000
+* 
+         RHS   DEMP1RM       1.18082           0.09500 
+         RHS   DEMP1RM       3.74172           0.19000 
+         RHS   DEMP1RM       5.25498           0.19000 
+         RHS   DEMP1RM       6.41902           0.19000 
+         RHS   DEMP1RM       7.93228           0.19000 
+         RHS   DEMP1RM      10.49318           0.09500 
+         RHS   DEMP1RM      24.61000           0.05000
+* 
+         RHS   DEMP1TL       9.12505           0.09500 
+         RHS   DEMP1TL      13.98812           0.19000 
+         RHS   DEMP1TL      16.86176           0.19000 
+         RHS   DEMP1TL      19.07224           0.19000 
+         RHS   DEMP1TL      21.94588           0.19000 
+         RHS   DEMP1TL      26.80895           0.09500 
+         RHS   DEMP1TL      51.96000           0.05000
+* 
+         RHS   DEMP2PP       0.00000           0.09500 
+         RHS   DEMP2PP       0.11431           0.19000 
+         RHS   DEMP2PP       0.68320           0.19000 
+         RHS   DEMP2PP       1.12080           0.19000 
+         RHS   DEMP2PP       1.68969           0.19000 
+         RHS   DEMP2PP       2.65243           0.09500 
+         RHS   DEMP2PP       7.85000           0.05000
+* 
+         RHS   DEMP2RM       4.18082           0.09500 
+         RHS   DEMP2RM       6.74172           0.19000 
+         RHS   DEMP2RM       8.25498           0.19000 
+         RHS   DEMP2RM       9.41902           0.19000 
+         RHS   DEMP2RM      10.93228           0.19000 
+         RHS   DEMP2RM      13.49318           0.09500 
+         RHS   DEMP2RM      27.61000           0.05000
+* 
+         RHS   DEMP2TH       1.15157           0.09500 
+         RHS   DEMP2TH       2.11431           0.19000 
+         RHS   DEMP2TH       2.68320           0.19000 
+         RHS   DEMP2TH       3.12080           0.19000 
+         RHS   DEMP2TH       3.68969           0.19000 
+         RHS   DEMP2TH       4.65243           0.09500 
+         RHS   DEMP2TH       9.85000           0.05000
+* 
+         RHS   DEMP2TL      30.15157           0.09500 
+         RHS   DEMP2TL      31.11431           0.19000 
+         RHS   DEMP2TL      31.68320           0.19000 
+         RHS   DEMP2TL      32.12080           0.19000 
+         RHS   DEMP2TL      32.68969           0.19000 
+         RHS   DEMP2TL      33.65243           0.09500 
+         RHS   DEMP2TL      38.85000           0.05000
+* 
+         RHS   DEMP3TH       0.00000           0.47500 
+         RHS   DEMP3TH       0.12080           0.19000 
+         RHS   DEMP3TH       0.68969           0.19000 
+         RHS   DEMP3TH       1.65243           0.09500 
+         RHS   DEMP3TH       6.85000           0.05000
+* 
+         RHS   DEMPPTH       7.12505           0.09500 
+         RHS   DEMPPTH      11.98812           0.19000 
+         RHS   DEMPPTH      14.86176           0.19000 
+         RHS   DEMPPTH      17.07224           0.19000 
+         RHS   DEMPPTH      19.94588           0.19000 
+         RHS   DEMPPTH      24.80895           0.09500 
+         RHS   DEMPPTH      49.96000           0.05000
+* 
+         RHS   DEMPPTL      29.12505           0.09500 
+         RHS   DEMPPTL      33.98812           0.19000 
+         RHS   DEMPPTL      36.86176           0.19000 
+         RHS   DEMPPTL      39.07224           0.19000 
+         RHS   DEMPPTL      41.94588           0.19000 
+         RHS   DEMPPTL      46.80895           0.09500 
+         RHS   DEMPPTL      71.96000           0.05000
+* 
+         RHS   DEMPUTL       7.12505           0.09500 
+         RHS   DEMPUTL      11.98812           0.19000 
+         RHS   DEMPUTL      14.86176           0.19000 
+         RHS   DEMPUTL      17.07224           0.19000 
+         RHS   DEMPUTL      19.94588           0.19000 
+         RHS   DEMPUTL      24.80895           0.09500 
+         RHS   DEMPUTL      49.96000           0.05000
+* 
+         RHS   DEMPZTL       0.18082           0.09500 
+         RHS   DEMPZTL       2.74172           0.19000 
+         RHS   DEMPZTL       4.25498           0.19000 
+         RHS   DEMPZTL       5.41902           0.19000 
+         RHS   DEMPZTL       6.93228           0.19000 
+         RHS   DEMPZTL       9.49318           0.09500 
+         RHS   DEMPZTL      23.61000           0.05000
+* 
+         RHS   DEMTHTL      44.15157           0.09500 
+         RHS   DEMTHTL      45.11431           0.19000 
+         RHS   DEMTHTL      45.68320           0.19000 
+         RHS   DEMTHTL      46.12080           0.19000 
+         RHS   DEMTHTL      46.68969           0.19000 
+         RHS   DEMTHTL      47.65243           0.09500 
+         RHS   DEMTHTL      52.85000           0.05000 
+ENDATA

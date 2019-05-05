@@ -1,0 +1,33 @@
+STOCH         PGP2
+INDEP         DISCRETE
+    RHS       DNODE1      0.5                      0.00005
+    RHS       DNODE1      1.0                      0.00125
+    RHS       DNODE1      2.5                      0.02150
+    RHS       DNODE1      3.5                      0.28570
+    RHS       DNODE1      5.0                      0.38300
+    RHS       DNODE1      6.5                      0.28570
+    RHS       DNODE1      7.5                      0.02150
+    RHS       DNODE1      9.0                      0.00125
+    RHS       DNODE1      9.5                      0.00005
+    RHS       DNODE2      0.0                      0.00130
+    RHS       DNODE2      1.5                      0.02150
+    RHS       DNODE2      2.5                      0.28570
+    RHS       DNODE2      4.0                      0.38300
+    RHS       DNODE2      5.5                      0.28570
+    RHS       DNODE2      6.5                      0.02150
+    RHS       DNODE2      8.0                      0.00125
+    RHS       DNODE2      8.5                      0.00005
+    RHS       DNODE3      0.0                      0.00130
+    RHS       DNODE3      0.5                      0.02150
+    RHS       DNODE3      1.5                      0.28570
+    RHS       DNODE3      3.0                      0.38300
+    RHS       DNODE3      4.5                      0.28570
+    RHS       DNODE3      5.5                      0.02150
+    RHS       DNODE3      7.0                      0.00125
+    RHS       DNODE3      7.5                      0.00005
+    EQ1ND1    FOBJ        38                       0.20000
+    EQ1ND1    FOBJ        39                       0.20000
+    EQ1ND1    FOBJ        40                       0.20000
+    EQ1ND1    FOBJ        41                       0.20000
+    EQ1ND1    FOBJ        42                       0.20000
+ENDATA

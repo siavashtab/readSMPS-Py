@@ -1,0 +1,5 @@
+TIME	20
+PERIODS       LP
+    COL00001  OBJ00000                 TIME1
+    COL00064  ROW00004                 TIME2
+ENDATA

@@ -1,0 +1,5 @@
+TIME          ssn
+PERIODS	      2
+    CAP11TH  BUDGET   TIME1
+    R*112Z   DEM112Z  TIME2
+ENDATA

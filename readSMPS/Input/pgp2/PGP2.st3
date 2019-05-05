@@ -1,0 +1,27 @@
+STOCH         PGP2
+BLOCKS        DISCRETE
+ BL BLOCK_1   PERIOD_2    0.005
+    RHS       DNODE1      1.0
+    RHS       DNODE2      1.5
+    RHS       DNODE3      0.5
+ BL BLOCK_1   PERIOD_2    0.045
+    RHS       DNODE1      2.5
+    RHS       DNODE2      2.5
+    RHS       DNODE3      1.5
+ BL BLOCK_1   PERIOD_2    0.45
+    RHS       DNODE1      4.0
+    RHS       DNODE2      3.0
+    RHS       DNODE3      2.0
+ BL BLOCK_1   PERIOD_2    0.45
+    RHS       DNODE1      6.0
+    RHS       DNODE2      5.0
+    RHS       DNODE3      4.0
+ BL BLOCK_1   PERIOD_2    0.045
+    RHS       DNODE1      8.0
+    RHS       DNODE2      7.5
+    RHS       DNODE3      6.5
+ BL BLOCK_1   PERIOD_2    0.005
+    RHS       DNODE1      9.5
+    RHS       DNODE2      8.5
+    RHS       DNODE3      7.5
+ENDATA

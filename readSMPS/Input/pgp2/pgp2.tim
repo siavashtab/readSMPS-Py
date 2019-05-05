@@ -1,0 +1,5 @@
+TIME          pgp2
+PERIODS
+    INVEQ1    FOBJ                     TIME1
+    EQ1ND1    CAPEQ1                   TIME2
+ENDATA
