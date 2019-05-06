@@ -20,7 +20,7 @@ Created on May 4
 
 class readtim:
     def __init__(self, name):
-        self.name = ".\\Input\\" + name + "\\" + name + ".tim"
+        self.name = name + ".tim"
         self.stage = list()
         self.stagenum = 0
     

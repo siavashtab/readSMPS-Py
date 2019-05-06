@@ -14,9 +14,8 @@ from gurobipy import *
 
 class readcor:
     def __init__(self, name):
-        self.name = ".\\Input\\" + name + "\\" + name + ".mps"
-        self.rownum = 0
-        self.colnum = 0
+        self.name = name + ".mps"
+ 
     
     ## Read the cor file
     def readfile(self):

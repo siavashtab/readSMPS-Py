@@ -13,7 +13,7 @@ Created on May 4
 
 class readstoc:
     def __init__(self, name):
-        self.name = ".\\Input\\" + name + "\\" + name + ".sto"
+        self.name = name + ".sto"
         self.rv = list()
         self.dist = list()
         self.cumul_dist = list()
