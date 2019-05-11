@@ -15,6 +15,7 @@ from readCOR  import readcor
 from readSTOC import readstoc
 from readTIM  import readtim
 
+
 class prob:
     def __init__(self, name):
         #Import the Mean problem
@@ -94,7 +95,10 @@ class decompose:
                 tmp = self.prob.mean_const.index(emp[0])
             #add the init and end index of the column of stage i
             self.tim.stage_idx_row.append(tmp)
-        
+    
+    def create_master(self):
+        self.prob.master_vars = self.prob.master_vars[:self.tim.stage_idx_col[0]+1]
+        self.prob.master_const = self.prob.master_const[:self.tim.stage_idx_row[0]+1]
         
         
         
