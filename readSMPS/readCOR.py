@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on May 4
+Created on May 4 - 2019
 
 ---Based on the 2-stage stochastic program structure
 ---Assumption: RHS is random
@@ -26,7 +26,7 @@ class readcor:
         self.mean_vars   = self.mean_model.getVars()
         self.mean_const  = self.mean_model.getConstrs()
         self.mean_model.optimize()
-        print"Mean value optimal: "
+        print 'Mean value optimal: ', self.mean_model.objVal
         self.mean_model.printAttr('x')
         self.mean_sol = [o.getAttr('x') for o in self.mean_vars]
         self.mean_status = self.mean_model.Status

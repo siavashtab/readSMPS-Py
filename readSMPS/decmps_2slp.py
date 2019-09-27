@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on May 4
+Created on May 4 - 2019
 
 ---Based on the 2-stage stochastic program structure
 ---Assumption: RHS is random
@@ -15,6 +15,7 @@ from readCOR  import readcor
 from readSTOC import readstoc
 from readTIM  import readtim
 
+from gurobipy import *
 
 class prob:
     def __init__(self, name):
@@ -30,12 +31,12 @@ class prob:
         self.mean_objVal = cor.mean_objVal
         self.mean_var_size   = cor.mean_var_num
         self.mean_const_size = cor.mean_const_num
-        self.master_model = self.mean_model
+        self.master_model = Model(self.model_name + '_master')
         self.master_vars  = self.mean_vars
         self.master_const = self.mean_const
         self.master_var_size  = 0
         self.master_const_size= 0
-        self.sub_model = self.mean_model
+        self.sub_model = Model(self.model_name + '_sub')
         self.sub_vars  = self.mean_vars
         self.sub_const = self.mean_const
         self.sub_var_size  = 0
@@ -64,6 +65,7 @@ class TIME:
         
 class decompose:
     def __init__(self,name,dirr): # dirr = ".\\Input\\"
+        self.model_name = name
         self.name = dirr + name + "\\" + name
         self.prob = prob(self.name)     #Prob information
         self.RV   = RandVars(self.name) #Random variabels
@@ -97,10 +99,14 @@ class decompose:
             self.tim.stage_idx_row.append(tmp)
     
     def create_master(self):
-        self.prob.master_vars = self.prob.master_vars[:self.tim.stage_idx_col[0]+1]
-        self.prob.master_const = self.prob.master_const[:self.tim.stage_idx_row[0]+1]
+        self.prob.master_vars = self.prob.master_vars[:self.tim.stage_idx_col[1]]
+        self.prob.master_const = self.prob.master_const[:self.tim.stage_idx_row[1]]
         
-        
+        # Create surrogate variables 
+        #eta = self.master_model.addVars ( *indices, lb=0.0, ub=GRB.INFINITY, obj=0.0, vtype=GRB.CONTINUOUS, name="" ) 
+        eta = self.prob.master_model.addVar ( lb=0.0, ub=GRB.INFINITY, obj=1.0, vtype=GRB.CONTINUOUS, name="\eta") 
+        print eta
+        self.prob.master_vars.append(eta)
         
         
         

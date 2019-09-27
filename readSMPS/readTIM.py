@@ -1,13 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 05 12:00:30 2019
 
-@author: stabr
 """
-
-# -*- coding: utf-8 -*-
-"""
-Created on May 4
+Created on May 4 - 2019
 
 ---Based on the 2-stage stochastic program structure
 ---Assumption: RHS is random
