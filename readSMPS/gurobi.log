@@ -1029,3 +1029,682 @@ Optimal objective  4.285000000e+02
       EQ1ND2            4 
       EQ3ND1            5 
       EQ4ND3            3 
+
+Gurobi 7.5.2 (win64, Python) logging started 09/28/19 17:33:28
+
+Academic license - for non-commercial use only
+Read MPS format model from file Input/pgp2/pgp2.mps
+Reading time = 0.01 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.02s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.03 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file Input/pgp2/pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file Input/pgp2/pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.01s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.01 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file Input/pgp2/pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.02s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.03 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.02s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.03 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.01s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.03 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.01 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.01 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.02s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.02s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.01 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.01 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.01s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.01 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.01 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.00 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.00 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.00 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 
+Read MPS format model from file .\Input\pgp2\pgp2.mps
+Reading time = 0.01 seconds
+PGP2: 9 rows, 20 columns, 40 nonzeros
+Optimize a model with 9 rows, 20 columns and 40 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 2e+02]
+Presolve time: 0.00s
+Presolved: 9 rows, 20 columns, 40 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.700000e+01   0.000000e+00      0s
+       9    4.2850000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 9 iterations and 0.02 seconds
+Optimal objective  4.285000000e+02
+
+    Variable            x 
+-------------------------
+      INVEQ1            4 
+      INVEQ3            5 
+      INVEQ4            6 
+      EQ1ND2            4 
+      EQ3ND1            5 
+      EQ4ND3            3 

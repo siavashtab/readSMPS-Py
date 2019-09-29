@@ -15,7 +15,11 @@ from readCOR  import readcor
 from readSTOC import readstoc
 from readTIM  import readtim
 
-from gurobipy import *
+try:
+    import gurobipy as gb
+except ImportError as e:
+    print('Gurobi is needed for building the problem optimization structure!')
+    raise
 
 class prob:
     def __init__(self, name):
@@ -31,12 +35,12 @@ class prob:
         self.mean_objVal = cor.mean_objVal
         self.mean_var_size   = cor.mean_var_num
         self.mean_const_size = cor.mean_const_num
-        self.master_model = Model(self.model_name + '_master')
+        self.master_model = gb.Model('master_')
         self.master_vars  = self.mean_vars
         self.master_const = self.mean_const
         self.master_var_size  = 0
         self.master_const_size= 0
-        self.sub_model = Model(self.model_name + '_sub')
+        self.sub_model = gb.Model('sub_')
         self.sub_vars  = self.mean_vars
         self.sub_const = self.mean_const
         self.sub_var_size  = 0
@@ -104,9 +108,24 @@ class decompose:
         
         # Create surrogate variables 
         #eta = self.master_model.addVars ( *indices, lb=0.0, ub=GRB.INFINITY, obj=0.0, vtype=GRB.CONTINUOUS, name="" ) 
-        eta = self.prob.master_model.addVar ( lb=0.0, ub=GRB.INFINITY, obj=1.0, vtype=GRB.CONTINUOUS, name="\eta") 
-        print eta
+        eta = self.prob.master_model.addVar ( lb=0.0, ub=gb.GRB.INFINITY, obj=1.0, vtype=gb.GRB.CONTINUOUS, name="\eta") 
+        self.prob.master_model.addVars(self.prob.master_vars)
+        self.prob.master_model.update()
         self.prob.master_vars.append(eta)
+        
+        #Building the master objective function
+        obj_ = self.prob.mean_model.getObjective()
+        varName = [j.getAttr("VarName") for j in self.prob.master_vars ]
+        newobj_ = gb.LinExpr()
+        newobj_ = eta
+        for t in range(obj_.size()):
+            if obj_.getVar(t).getAttr("VarName") in varName:
+                newobj_ += obj_.getCoeff(t) * obj_.getVar(t)
+        self.prob.master_model.setObjective(newobj_)
+
+        
+    
+        
         
         
         
