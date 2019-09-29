@@ -102,6 +102,11 @@ class decompose:
             #add the init and end index of the column of stage i
             self.tim.stage_idx_row.append(tmp)
     
+    def Reg_Objective(self,LinObj, var_dic):
+        for vdic in var_dic.keys():
+            LinObj += (vdic - var_dic[vdic]) * (vdic - var_dic[vdic])
+        return LinObj
+    
     def create_master(self):
         self.prob.master_vars = self.prob.master_vars[:self.tim.stage_idx_col[1]]
         self.prob.master_const = self.prob.master_const[:self.tim.stage_idx_row[1]]
@@ -149,7 +154,32 @@ class decompose:
                 newobj_ += obj_.getCoeff(t) * self.prob.master_vars[varName.index(obj_.getVar(t).getAttr("VarName"))]
         self.prob.master_model.setObjective(newobj_)
 
+    def create_master_reg(self):
+        self.prob.master_vars = self.prob.master_vars[:self.tim.stage_idx_col[1]]
+        self.prob.master_const = self.prob.master_const[:self.tim.stage_idx_row[1]]
         
+        # Create surrogate variables 
+        #eta = self.master_model.addVars ( *indices, lb=0.0, ub=GRB.INFINITY, obj=0.0, vtype=GRB.CONTINUOUS, name="" ) 
+        eta = self.prob.master_model.addVar ( lb=0.0, ub=gb.GRB.INFINITY, obj=1.0, vtype=gb.GRB.CONTINUOUS, name="\eta") 
+        self.prob.master_model.addVars(self.prob.master_vars)
+        self.prob.master_model.update()
+        self.prob.master_vars.append(eta)
+        
+        #Building the master objective function
+        obj_ = self.prob.mean_model.getObjective()
+        varName = [j.getAttr("VarName") for j in self.prob.master_vars ]
+        newobj_ = gb.LinExpr()
+        newobj_ = eta
+        for t in range(obj_.size()):
+            if obj_.getVar(t).getAttr("VarName") in varName:
+                newobj_ += obj_.getCoeff(t) * obj_.getVar(t)
+        var_dic = dict()
+        for v in self.prob.master_vars:
+            if "\eta" not in v.getAttr("VarName"):
+                var_dic.update({v:v.getAttr('X')})
+        newobj_ = self.Reg_Objective(newobj_, var_dic)
+        print(newobj_)
+        self.prob.master_model.setObjective(newobj_)      
     
         
         
