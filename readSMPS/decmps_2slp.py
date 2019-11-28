@@ -226,6 +226,17 @@ class decompose:
         newobj_ = self.Reg_Objective(newobj_, var_dic)
         self.prob.master_model.setObjective(newobj_)    
     
+    #creating the Lshaped subproblem
+    def create_LSsub(self,obs,incmb):
+        self.prob.sub_vars  = self.prob.sub_vars[self.tim.stage_idx_col[1]:]
+        self.prob.sub_const = self.prob.sub_const[self.tim.stage_idx_col[1]:]
+        fvarName = [j.getAttr("VarName") for j in self.prob.master_vars ]
+        
+        for v in self.prob.sub_vars:
+            self.prob.master_model.addVar(lb=v.getAttr("LB"), ub=v.getAttr("UB"), obj=v.getAttr("Obj"), vtype=v.getAttr("VType"), name=v.getAttr("VarName"))
+        self.prob.master_model.update()
+        self.prob.master_vars = self.prob.master_model.getVars()
+    
         
         
         
