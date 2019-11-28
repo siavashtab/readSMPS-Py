@@ -139,10 +139,12 @@ class decompose:
             empt = gb.LinExpr()
             Cx = 0
             for v in self.prob.sub_vars:
-                empt += self.mean_model.getCoeff(c,v) * v
+                empt += self.prob.mean_model.getCoeff(c,v) * v
             for v in range(len(self.prob.master_vars)):
-                Cx   += self.mean_model.getCoeff(c,self.prob.master_vars[v]) * incmbt[v]
+                if 'eta' not in self.prob.master_vars[v].getAttr('VarName'):
+                    Cx   += self.prob.mean_model.getCoeff(c,self.prob.master_vars[v]) * incmbt[v]
             self.prob.sub_model.addConstr(empt,c.getAttr('Sense'),c.getAttr('RHS') - Cx,c.getAttr('ConstrName'))
+            self.prob.sub_model.update()
         self.prob.sub_const = self.prob.sub_model.getConstrs()
     
     #Creating linear master with one surrogates (\eta)
@@ -277,7 +279,7 @@ class decompose:
             self.prob.sub_model.addVar(lb=v.getAttr("LB"), ub=v.getAttr("UB"), obj=v.getAttr("Obj"), vtype=v.getAttr("VType"), name=v.getAttr("VarName"))
         self.prob.sub_model.update()
         self.prob.sub_vars = self.prob.sub_model.getVars()
-        self.create_LSsub_constr(obs,incmbt)
+        self.create_LSsub_constr(obs,incmb)
     
         
         
