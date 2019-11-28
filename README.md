@@ -67,11 +67,10 @@ techniques for stochastic programming which can be done in this code.
 
 ## Description
 
-The program starts with asking the instance name and the number of samples
+The program can be runned by specifying the instance name and directory and the suitable problems can be created
 ~~~~
->> Inter Test Instance Name:
->> Sample Size:
+>> d = decompose("pgp2",".\\Input\\")
+>> d.find_stage_idx()
+>> d.create_master()
 ~~~~
-After that it will produce the decomposed problems which is suitable for 
-L-shaped type of algorithms
 
