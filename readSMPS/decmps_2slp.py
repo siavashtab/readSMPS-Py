@@ -113,6 +113,17 @@ class decompose:
         for c in constr:
             empt = gb.LinExpr()
             for v in self.prob.master_vars:
+                empt += self.prob.mean_model.getCoeff(c,v) * v
+            self.prob.master_model.addConstr(empt,c.getAttr('Sense'),c.getAttr('RHS'),c.getAttr('ConstrName'))
+            self.prob.master_model.update()
+        self.prob.master_const = self.prob.master_model.getConstrs()
+    
+    #Create LSsub constraints
+    def create_LSsub_constr(self,incmbt):
+        constr = self.prob.mean_const[:self.tim.stage_idx_row[1]]
+        for c in constr:
+            empt = gb.LinExpr()
+            for v in self.prob.master_vars:
                 empt += self.mean_model.getCoeff(c,v) * v
             self.prob.master_model.addConstr(empt,c.getAttr('Sense'),c.getAttr('RHS'),c.getAttr('ConstrName'))
         self.prob.master_const = self.prob.master_model.getConstrs()
