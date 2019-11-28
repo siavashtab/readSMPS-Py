@@ -8,7 +8,7 @@ Created on May 4 - 2019
 ---save the distributoin of the random variables and return the 
 ---random variables
 
-@author: Siavash Tabrizian - stabrizian@gmail.com - stabrizian@smu.edu
+@author: Siavash Tabrizian - stabrizian@smu.edu
 """
 
 class readstoc:
@@ -30,7 +30,7 @@ class readstoc:
             #print words
             if len(words) > 2:
                 if words[0] != "RHS":
-                    print"ERROR: Randomness is not on the RHS"
+                    print("ERROR: Randomness is not on the RHS")
                 else:
                     #store the name of the random variables
                     if words[1] not in self.rv:

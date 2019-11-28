@@ -8,7 +8,7 @@ Created on May 4 - 2019
 ---save the distributoin of the random variables and return the 
 ---random variables
 
-@author: Siavash Tabrizian - stabrizian@gmail.com - stabrizian@smu.edu
+@author: Siavash Tabrizian - stabrizian@smu.edu
 """
 from gurobipy import *
 
@@ -26,7 +26,7 @@ class readcor:
         self.mean_vars   = self.mean_model.getVars()
         self.mean_const  = self.mean_model.getConstrs()
         self.mean_model.optimize()
-        print 'Mean value optimal: ', self.mean_model.objVal
+        print ('Mean value optimal: ', self.mean_model.objVal)
         self.mean_model.printAttr('x')
         self.mean_sol = [o.getAttr('x') for o in self.mean_vars]
         self.mean_status = self.mean_model.Status

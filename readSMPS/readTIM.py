@@ -8,7 +8,7 @@ Created on May 4 - 2019
 ---save the distributoin of the random variables and return the 
 ---random variables
 
-@author: Siavash Tabrizian - stabrizian@gmail.com - stabrizian@smu.edu
+@author: Siavash Tabrizian - stabrizian@smu.edu
 """
 
 class readtim:
@@ -35,7 +35,7 @@ class readtim:
         
         self.stagenum = count
         if count > 2:
-           print "ERROR: more than two stages"               
+           print ("ERROR: more than two stages")             
                     
                         
                     

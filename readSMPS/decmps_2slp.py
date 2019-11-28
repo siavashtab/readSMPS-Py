@@ -8,7 +8,7 @@ Created on May 4 - 2019
 ---save the distributoin of the random variables and return the 
 ---random variables
 
-@author: Siavash Tabrizian - stabrizian@gmail.com - stabrizian@smu.edu
+@author: Siavash Tabrizian - stabrizian@smu.edu
 """
 
 from readCOR  import readcor
@@ -113,8 +113,11 @@ class decompose:
         
         # Create surrogate variables 
         #eta = self.master_model.addVars ( *indices, lb=0.0, ub=GRB.INFINITY, obj=0.0, vtype=GRB.CONTINUOUS, name="" ) 
+        for v in self.prob.master_vars:
+            self.prob.master_model.addVar(lb=v.getAttr("LB"), ub=v.getAttr("UB"), obj=v.getAttr("Obj"), vtype=v.getAttr("VType"), name=v.getAttr("VarName"))
+        self.prob.master_model.update()
+        self.prob.master_vars = self.prob.master_model.getVars()
         eta = self.prob.master_model.addVar ( lb=0.0, ub=gb.GRB.INFINITY, obj=1.0, vtype=gb.GRB.CONTINUOUS, name="\eta") 
-        self.prob.master_model.addVars(self.prob.master_vars)
         self.prob.master_model.update()
         self.prob.master_vars.append(eta)
         
@@ -125,7 +128,7 @@ class decompose:
         newobj_ = eta
         for t in range(obj_.size()):
             if obj_.getVar(t).getAttr("VarName") in varName:
-                newobj_ += obj_.getCoeff(t) * obj_.getVar(t)
+                newobj_ += obj_.getCoeff(t) * self.prob.master_vars[varName.index(obj_.getVar(t).getAttr("VarName"))]
         self.prob.master_model.setObjective(newobj_)
         
     def create_master_multi(self, scen_num):
