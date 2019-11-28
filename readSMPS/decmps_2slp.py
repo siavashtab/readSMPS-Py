@@ -107,6 +107,16 @@ class decompose:
             LinObj += (vdic - var_dic[vdic]) * (vdic - var_dic[vdic])
         return LinObj
     
+    #Create master constraints
+    def create_master_constr(self):
+        constr = self.prob.mean_const[:self.tim.stage_idx_row[1]]
+        for c in constr:
+            empt = gb.LinExpr()
+            for v in self.prob.master_vars:
+                empt += self.mean_model.getCoeff(c,v) * v
+            self.prob.master_model.addConstr(empt,c.getAttr('Sense'),c.getAttr('RHS'),c.getAttr('ConstrName'))
+        self.prob.master_const = self.prob.master_model.getConstrs()
+    
     #Creating linear master with one surrogates (\eta)
     def create_master(self):
         self.prob.master_vars = self.prob.master_vars[:self.tim.stage_idx_col[1]]
@@ -131,6 +141,7 @@ class decompose:
             if obj_.getVar(t).getAttr("VarName") in varName:
                 newobj_ += obj_.getCoeff(t) * self.prob.master_vars[varName.index(obj_.getVar(t).getAttr("VarName"))]
         self.prob.master_model.setObjective(newobj_)
+        self.create_master_constr()
     
     #Creating linear master with multiple surrogates(\eta0,\eta1,...) 
     def create_master_multi(self, scen_num):
@@ -158,6 +169,7 @@ class decompose:
             if obj_.getVar(t).getAttr("VarName") in varName:
                 newobj_ += obj_.getCoeff(t) * self.prob.master_vars[varName.index(obj_.getVar(t).getAttr("VarName"))]
         self.prob.master_model.setObjective(newobj_)
+        self.create_master_constr()
 
     #Creating regularized master with one surrogates (\eta)
     def create_master_reg(self,incmb):
@@ -191,6 +203,7 @@ class decompose:
         newobj_ = self.Reg_Objective(newobj_, var_dic)
         print(newobj_)
         self.prob.master_model.setObjective(newobj_)      
+        self.create_master_constr()
         
     #Creating regularized master with multiple surrogates
     def create_master_reg_multi(self,incmb, scen_num):
@@ -224,7 +237,8 @@ class decompose:
                 var_dic.update({v:incmb[i]})
                 i += 1
         newobj_ = self.Reg_Objective(newobj_, var_dic)
-        self.prob.master_model.setObjective(newobj_)    
+        self.prob.master_model.setObjective(newobj_)   
+        self.create_master_constr()
     
     #creating the Lshaped subproblem
     def create_LSsub(self,obs,incmb):
