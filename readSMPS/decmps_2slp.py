@@ -18,7 +18,7 @@ from readTIM  import readtim
 try:
     import gurobipy as gb
 except ImportError as e:
-    print('Gurobi is needed for building the problem optimization structure!')
+    print('Gurobi is needed for building the problem structure!')
     raise
 
 class prob:
@@ -155,7 +155,6 @@ class decompose:
         self.prob.master_const = self.prob.master_const[:self.tim.stage_idx_row[1]]
         
         # Create surrogate variables 
-        #eta = self.master_model.addVars ( *indices, lb=0.0, ub=GRB.INFINITY, obj=0.0, vtype=GRB.CONTINUOUS, name="" ) 
         for v in self.prob.master_vars:
             self.prob.master_model.addVar(lb=v.getAttr("LB"), ub=v.getAttr("UB"), obj=v.getAttr("Obj"), vtype=v.getAttr("VType"), name=v.getAttr("VarName"))
         self.prob.master_model.update()
@@ -181,7 +180,6 @@ class decompose:
         self.prob.master_const = self.prob.master_const[:self.tim.stage_idx_row[1]]
         
         # Create surrogate variables 
-        #eta = self.master_model.addVars ( *indices, lb=0.0, ub=GRB.INFINITY, obj=0.0, vtype=GRB.CONTINUOUS, name="" ) 
         for v in self.prob.master_vars:
             self.prob.master_model.addVar(lb=v.getAttr("LB"), ub=v.getAttr("UB"), obj=v.getAttr("Obj"), vtype=v.getAttr("VType"), name=v.getAttr("VarName"))
         self.prob.master_model.update()
