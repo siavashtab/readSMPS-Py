@@ -117,7 +117,9 @@ class decompose:
                     break;
                 else:
                     c.setAttr('RHS',obs[obscount])
+                    self.prob.mean_model.update()
                     obscount += 1
+
         return constr
     
     #Create master constraints
@@ -133,7 +135,7 @@ class decompose:
     
     #Create LSsub constraints
     def create_LSsub_constr(self,obs,incmbt):
-        constr = self.prob.mean_const[:self.tim.stage_idx_row[1]]
+        constr = self.prob.mean_const[self.tim.stage_idx_row[1]:]
         constr = self.replaceObs(obs,constr)
         for c in constr:
             empt = gb.LinExpr()
