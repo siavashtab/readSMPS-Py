@@ -102,11 +102,7 @@ class decompose:
             #add the init and end index of the column of stage i
             self.tim.stage_idx_row.append(tmp)
     
-    def Reg_Objective(self,LinObj, var_dic):
-        for vdic in var_dic.keys():
-            LinObj += (vdic - var_dic[vdic]) * (vdic - var_dic[vdic])
-        return LinObj
-    
+
     # replace the observations in the proper location of the problem
     def replaceObs(self,obs,constr):
         obscount = 0
