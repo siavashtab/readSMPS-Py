@@ -1,6 +1,6 @@
 #  readSMPS-Py
 
-[—[Source]—](https://github.com/siavashtab/readSMPS-Py/tree/master/src)
+[—[Source]—](https://github.com/siavashtab/readSMPS-Py/tree/master/readSMPS)
 [—[license]—](https://github.com/siavashtab/readSMPS-Py/blob/master/LICENSE)
 
 reading SMPS format files for two-stage stochastic programs
@@ -38,7 +38,7 @@ techniques for stochastic programming which can be done in this code.
 
 - this program will read the SMPS files, decompose the problem
   into a master and subproblem based on the GUROBI objects. 
-  The data structure in which problems will be stored are all defined in prob_struct.h
+  The data structure in which problems will be stored are all defined in self.prob
 
 ------------------
 
