@@ -110,7 +110,7 @@ class decompose:
             if c.getAttr('ConstrName') in self.RV.rv:
                 if len(obs) < obscount-1:
                     print("ERROR: Length of obs is less than rvs")
-                    break;
+                    break
                 else:
                     c.setAttr('RHS',obs[obscount])
                     self.prob.mean_model.update()
