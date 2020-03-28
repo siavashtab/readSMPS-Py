@@ -20,10 +20,10 @@ programming languages (C or Julia) or do not provide a suitable data structures 
 based algorithms (based on GUROBI solver). Moreover, it would be crucial to facilitate the problem that can handle sampling 
 techniques for stochastic programming which can be done in this code.
 
--  this package store the problem information in GUROBI format
+-  this package stores the problem information in GUROBI format
 -  the distribution of random variables are discrete (even if it is not discrete it can be turned to a discrete distribution)
 -  randomness is on the right handside of the recourse problem
--  COR file contains the mean value problem which its optimal value yields a lower bound
+-  COR file contains the mean value problem whose optimal value yields a lower bound
 
 ------------------
 
